@@ -35,5 +35,22 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constaintTop_toTopOf="parent"/>
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/IvProfile"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="10dp"/>
+
+<!--            android:src="@drawable/bitmap"-->
+            />
+
+
+    </RelativeLayout>
+
 
 </RelativeLayout>
