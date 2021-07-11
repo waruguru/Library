@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">G4S</string>
+    <string name="hellojoyce">hellojoyce</string>
+    <string name="logged_time">logged_time</string>
 </resources>
