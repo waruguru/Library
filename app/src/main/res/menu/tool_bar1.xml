@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/cellular_connection"
+        app:showAsAction="ifRoom"
+        android:title="@string/connection">
+
+    </item>
+
+    <item
+        android:icon="@drawable/wifi"
+        app:showAsAction="always"
+        android:title="@string/wifi_status">
+
+    </item>
+
+    <item
+        android:icon="@drawable/battery_fully_charged"
+        app:showAsAction="always"
+        android:title="@string/battery_status">
+
+    </item>
+
+
+</menu>

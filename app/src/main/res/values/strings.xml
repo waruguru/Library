@@ -3,4 +3,6 @@
     <string name="hellojoyce">hellojoyce</string>
     <string name="logged_time">logged_time</string>
     <string name="history">history</string>
+    <string name="battery_status">battery_status</string>
+    <string name="connection">connection</string>
 </resources>
