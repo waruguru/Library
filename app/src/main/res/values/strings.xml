@@ -1,8 +1,107 @@
 <resources>
-    <string name="app_name">G4S</string>
-    <string name="hellojoyce">hellojoyce</string>
-    <string name="logged_time">logged_time</string>
-    <string name="history">history</string>
-    <string name="battery_status">battery_status</string>
+    <string name="app_name">G4S Access C System</string>
+    <string name="welcome_txt">Welcome to</string>
+    <string name="g4s_security_txt">G4S Security</string>
+    <string name="securing_your_world_txt">Securing your world</string>
+    <string name="set_up_account_btn">SET UP ACCOUNT</string>
     <string name="connection">connection</string>
+    <string name="battery_status">battery</string>
+    <string name="wifi_status">wifi</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_string">All laptops and computer machinery that a visitor might be having should be scanned for serial code</string>
+    <string name="register">Registration</string>
+    <string name="full_names">Full names</string>
+    <string name="enter_full_name">Enter full name</string>
+    <string name="Checkin_Checkout">A simplified checkin and checkout system for \nall visitors at various checkpoints in \na premises</string>
+    <string name="Laptop_Scan">All laptops and computer machinery that a \nvisitor might be having should be scanned \nfor serial code</string>
+    <string name="Centralized_Data">A centralised data point to enable swift \ntracking of all visitors in a premises \nat a particular time</string>
+
+    <string name="intro_screen_introduction">Intro screen Introduction</string>
+    <string name="login">Login</string>
+    <string name="shift">Connect and start your \nShift now</string>
+    <string name="Phone_number">Please enter your number</string>
+    <string name="Login_button">Login</string>
+    <string name="biometric_login">Use biometric Login</string>
+    <string name="PortalAccess">Access your portal quickly \nand safely</string>
+    <string name="Biometric_Details">Please authenticate your biometric details</string>
+    <string name="biometric_login_Setup">Set up Biometric Login</string>
+    <string name="skip">Skip</string>
+    <string name="fingerprint_sensor">Touch the fingerprint sensor</string>
+    <string name="confirm_pin">Confirm pin for you to \nAccess account</string>
+    <string name="confirm_pin_tv">Confirm pin</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="_4">4</string>
+    <string name="_6">6</string>
+    <string name="_5">5</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="continue_btn">Continue</string>
+    <string name="verification_code_hint">Please enter your verification \nCode</string>
+    <string name="didn_t_receive_code">Didn’t receive Code?</string>
+    <string name="resend_code">Resend Code</string>
+    <string name="_254">+254</string>
+    <string name="change_pin">Change pin for you to \nAccess account</string>
+    <string name="change_pintv">Change pin</string>
+    <string name="hello_alex">Hello, Alex</string>
+    <string name="logged_time">Last logged in 8:30 am Thur</string>
+    <string name="recent_visitors">Recent Visitors</string>
+    <string name="search_for_visitor">Search for visitor</string>
+    <string name="check_in_new_visitor">Check-in new visitor</string>
+    <string name="check_out_visitor">Check-out visitor</string>
+    <string name="home">Home</string>
+    <string name="history">History</string>
+    <string name="visitor_details">Visitor Details</string>
+    <string name="full_name">Full Name</string>
+    <string name="alex_mwangi_wanjohi">ALEX MWANGI WANJOHI</string>
+    <string name="id_number">ID Number</string>
+    <string name="_37078339">37078339</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="please_provide_mobile_number">Please provide mobile number</string>
+    <string name="required">*required*</string>
+    <string name="destination">Destination</string>
+    <string name="temperature_record">Temperature Record</string>
+    <string name="optional">(Optional)</string>
+    <string name="digital_signature">Digital Signature</string>
+    <string name="visitor_summary">Visitor summary</string>
+    <string name="summary_report">Here is a summary report for the Visitor</string>
+    <string name="qr_code">Scan this QR Code during \ncheck-out To get the summary \nreport quickly</string>
+    <string name="print">Print</string>
+    <string name="visitor_checked_in_successfully">Visitor Checked-In successfully</string>
+    <string name="sms_notification">An SMS notification has been sent to the Visitor’s phone number</string>
+    <string name="back_home">Back To Home</string>
+    <string name="scan_serial_number">Scan Serial Number</string>
+    <string name="from">from</string>
+    <string name="co_operative_bank">Co-operative Bank</string>
+    <string name="_34_6">34.6</string>
+    <string name="visitor_checked_out_successfully">Visitor Checked-Out successfully</string>
+    <string name="checkout">Checkout</string>
+    <string name="scan_id">Scan ID to get the details \nOf the visitor</string>
+    <string name="proceed_without_id">Proceed without id</string>
+    <string name="proceed_without_laptop">proceed without laptop</string>
+    <string name="scan_laptop_serial_number">Scan laptop serial number Of the visitor</string>
+    <string name="eclectics">Eclectics</string>
+    <string name="simon_kimani">Simon Kimani</string>
+    <string name="company">Company or Organisation</string>
+    <string name="scan_id_card_to_get_the_details">Scan ID card to get the details Of the visitor</string>
+    <string name="scan_qr_code_to_get_the_details_of_the_visitor">Scan QR Code to get the details Of the visitor</string>
+    <string name="provide_destination">Please provide destination</string>
+    <string name="under_score">_</string>
+    <string name="enter_pin_for_you_to_login">Enter Pin for you \nto Login</string>
+
+    <string-array name="destination">
+        <item>Nairobi</item>
+        <item>Kisumu</item>
+        <item>Nakuru</item>
+        <item>Mombasa</item>
+        <item>Meru</item>
+        <item>Nyeri</item>
+        <item>Embu</item>
+        <item>Karatina</item>
+        <item>Isiolo</item>
+        <item>Eldoret</item>
+    </string-array>
+
 </resources>
