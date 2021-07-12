@@ -20,7 +20,7 @@
         android:roundIcon="@drawable/g4simage"
         android:supportsRtl="true"
         android:theme="@style/Theme.G4SAccessCSystem">
-        <activity android:name="com.ekenya.android.g4saccesscsystem.ui.home.dashboard.DashBoardActivity"></activity>
+        <activity android:name="com.ekenya.android.g4saccesscsystem.ui.home.dashboard.DashBoardActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

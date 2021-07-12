@@ -28,6 +28,10 @@ class MainActivity : AppCompatActivity() {
         }
 
 
+       /* navigation.addOnDestinationChangedListener { _,
+                                                        destination, _ ->
+            if (destination.id == R.id.dashBoardFragment || destination.id == R.id.dashBoardFragment || destination.id == R.id.dashBoardFragment)
+            {binding.bottomNav.visibility = View.VISIBLE    } else {binding.bottomNav.visibility = View.GONE    }}*/
 
     }
 }

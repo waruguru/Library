@@ -1,4 +1,4 @@
-package com.moringaschool.g4s;
+package com.ekenya.rnd.scannerlib;
 
 import org.junit.Test;
 

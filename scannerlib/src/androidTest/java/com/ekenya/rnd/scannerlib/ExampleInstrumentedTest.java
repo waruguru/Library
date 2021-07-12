@@ -1,4 +1,4 @@
-package com.moringaschool.g4s;
+package com.ekenya.rnd.scannerlib;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.moringaschool.g4s", appContext.getPackageName());
+        assertEquals("com.ekenya.rnd.scannerlib.test", appContext.getPackageName());
     }
 }
