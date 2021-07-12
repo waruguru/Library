@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ui.home.visitor.VisitorDetailsFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/Iv_backArrow"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="30dp"
+                android:src="@drawable/ic_left_arrow"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/visitor_details"
+                android:layout_marginStart="30dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+        </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/full_name"
+            android:layout_marginTop="@dimen/_50dp"
+            android:layout_marginStart="30dp"/>
+
+        <EditText
+            android:id="@+id/etFullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:hint="@string/alex_mwangi_wanjohi"
+            android:textStyle="normal"
+            android:inputType="textPersonName"
+            android:textAllCaps="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/id_number"
+            android:layout_marginTop="@dimen/_20dp"
+            android:layout_marginStart="30dp"/>
+
+        <EditText
+            android:id="@+id/etIdNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:hint="@string/_37078339"
+            android:textStyle="normal"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mobile_number"
+            android:layout_marginTop="@dimen/_20dp"
+            android:layout_marginStart="30dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:hint="@string/please_provide_mobile_number"
+            android:textStyle="normal"
+            android:inputType="phone"
+            android:textAllCaps="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/required"
+            android:textColor="@color/blue"
+            android:layout_marginTop="@dimen/_30dp"
+            android:layout_marginStart="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/destination"
+            android:layout_marginTop="@dimen/_20dp"
+            android:layout_marginStart="30dp"/>
+
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/atv_destination1"
+            android:layout_marginTop="@dimen/_20dp"
+            android:drawableEnd="@drawable/ic_back__1_"
+            android:layout_marginStart="@dimen/_30dp"
+            android:layout_marginEnd="@dimen/_15dp"
+            android:hint="@string/provide_destination"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/required"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/required"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/blue"
+            android:layout_marginStart="30dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:hint="@string/temperature_record"
+            android:textStyle="normal"
+            android:inputType="numberDecimal"
+            android:textAllCaps="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/required"
+            android:textColor="@color/blue"
+            android:layout_marginTop="@dimen/_20dp"
+            android:layout_marginStart="30dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:hint="@string/company"
+            android:textStyle="normal"
+            android:inputType="textPersonName"
+            android:textAllCaps="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/optional"
+            android:layout_marginTop="@dimen/_30dp"
+            android:textColor="@color/blue"
+            android:layout_marginStart="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/digital_signature"
+            android:layout_marginTop="@dimen/_30dp"
+            android:layout_marginStart="30dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imgEraser"
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_margin="8dp"
+                android:src="@drawable/eraser"
+                android:layout_alignParentEnd="true"
+                app:tint="@color/black" />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/clSignature"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_below="@+id/imgEraser"
+                android:layout_marginTop="2dp"
+                android:layout_marginStart="@dimen/_30dp"
+                android:layout_marginEnd="@dimen/_30dp"
+                android:background="@drawable/digital_signature_bg"
+                app:layout_constraintEnd_toEndOf="parent"
+                >
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_100dp"
+        android:gravity="center">
+
+        <!--FIRST LAYOUT-->
+        <TextView
+            android:id="@+id/tvBtnOne"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/unselected_background"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp" />
+        <View
+            android:id="@+id/v1"
+            android:layout_width="15dp"
+            android:layout_height="2dp"
+            android:background="@color/ColorRed"
+            android:layout_toRightOf="@id/tvBtnOne"
+            android:layout_centerVertical="true"/>
+
+
+        <!--THIRD LAYOUT-->
+        <TextView
+            android:id="@+id/tvBtnTwo"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_toRightOf="@id/v1"
+            android:layout_centerVertical="true"
+            android:background="@drawable/unselected_background"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="330dp"
+        android:layout_height="45dp"
+        android:id="@+id/btn_continue"
+        android:layout_marginTop="@dimen/_20dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        app:backgroundTint="@null"
+        android:gravity="center"
+        android:background="@drawable/button_bg"
+        android:text="@string/continue_btn"
+        android:textAllCaps="true"
+        style="@style/ButtonFont"
+        android:textStyle="normal"/>
+
+</LinearLayout>

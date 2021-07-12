@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="@color/Gray"
+    android:background="@color/Gray"
+    tools:context=".ui.home.visitor.ScanVisitorDetailsFragment">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+
+        <ImageView
+            android:id="@+id/ivback_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_white_left_arrow"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"/>
+
+
+            <RelativeLayout
+                android:layout_width="@dimen/_100dp"
+                android:layout_height="@dimen/_50dp"
+                android:background="@color/blue"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginStart="@dimen/_70dp">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_scan"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/switchbtn_bg"
+                    android:minHeight="32dp"
+                    android:padding="8dp"
+                    android:text="scan qr code"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    app:autoSizeMaxTextSize="22sp"
+                    app:autoSizeMinTextSize="14sp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="@dimen/_100dp"
+                android:layout_height="@dimen/_50dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:background="@color/blue"
+                android:layout_marginStart="@dimen/_160dp">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_scan1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/switchbutton_bg"
+                    android:minHeight="32dp"
+                    android:padding="8dp"
+                    android:text="scan ID Number"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    app:autoSizeMaxTextSize="22sp"
+                    app:autoSizeMinTextSize="14sp"/>
+
+
+            </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvScanID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/scan_id_card_to_get_the_details"
+            android:textColor="@color/white"
+            android:layout_marginStart="90dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="@dimen/_170dp"
+            android:layout_alignParentEnd="true"/>
+
+    <ImageView
+        android:id="@+id/ivFlash"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_marginStart="330dp"
+        android:layout_marginTop="@dimen/_20dp"
+        android:src="@drawable/ic_flash" />
+
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/relativeLayout2" />
+</RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>

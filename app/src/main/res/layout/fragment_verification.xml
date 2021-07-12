@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.auth.register.VerificationFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvVerify"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:text="@string/verification_code_hint"
+            android:layout_marginStart="30sp"
+            android:layout_marginTop="70dp"
+            style="@style/verificationTv"
+            android:layout_marginEnd="20dp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+                android:id="@+id/layout_code"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="20dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="0dp">
+
+            <EditText
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:id="@+id/etOne"
+                android:inputType="number"
+                android:layout_marginStart="10dp"
+                android:maxEms="1"
+                android:maxLength="1"
+                android:layout_marginTop="5dp"/>
+
+            <EditText
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:id="@+id/etTwo"
+                android:inputType="number"
+                android:layout_marginStart="10dp"
+                android:maxEms="1"
+                android:maxLength="1"
+                android:layout_marginTop="5dp"/>
+
+            <EditText
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:id="@+id/etThree"
+                android:inputType="number"
+                android:layout_marginStart="10dp"
+                android:maxEms="1"
+                android:maxLength="1"
+                android:layout_marginTop="5dp"/>
+
+            <EditText
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:id="@+id/etFour"
+                android:inputType="number"
+                android:layout_marginStart="10dp"
+                android:maxEms="1"
+                android:maxLength="1"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/didn_t_receive_code"
+            android:layout_marginStart="68dp"
+            style="@style/pinTextView"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resend_code"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins"
+            android:layout_marginTop="15dp"/>
+
+    </LinearLayout>
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp">
+
+            <TableRow style="@style/keyboard_row"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/btn7"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/pin_bg"
+                    app:backgroundTint="@null"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:text="@string/_7"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="32sp" />
+
+                <Button
+                    android:id="@+id/btn8"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/pin_bg"
+                    app:backgroundTint="@null"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:text="@string/_8"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="32sp" />
+
+                <Button
+                    android:id="@+id/btn9"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/pin_bg"
+                    app:backgroundTint="@null"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:text="@string/_9"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="32sp" />
+            </TableRow>
+
+            <TableRow style="@style/keyboard_row"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/btn4"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/pin_bg"
+                    app:backgroundTint="@null"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="32sp"
+                    android:text="@string/_4" />
+
+                <Button
+                    android:id="@+id/btn5"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/pin_bg"
+                    app:backgroundTint="@null"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="32sp"
+                    android:text="@string/_5" />
+
+                <Button
+                    android:id="@+id/btn6"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/pin_bg"
+                    app:backgroundTint="@null"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="32sp"
+                    android:text="@string/_6" />
+            </TableRow>
+
+            <TableRow style="@style/keyboard_row"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/pin_bg"
+                app:backgroundTint="@null"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="32sp"
+                android:text="@string/_1" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/pin_bg"
+                app:backgroundTint="@null"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="32sp"
+                android:text="@string/_2" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/pin_bg"
+                android:gravity="center"
+                app:backgroundTint="@null"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="32sp"
+                android:text="@string/_3" />
+        </TableRow>
+
+            <TableRow style="@style/keyboard_row"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:id="@+id/pin_pad"
+                    style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_marginEnd="20dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    />
+
+                <Button
+                    android:id="@+id/btn0"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/pin_bg"
+                    android:gravity="center"
+                    app:backgroundTint="@null"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="32sp"
+                    android:text="0" />
+
+                <ImageView
+                    android:id="@+id/btnBackSpace"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/pin_bg"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:padding="20dp"
+                    android:src="@drawable/backspace"
+                    app:backgroundTint="@null" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="330dp"
+            android:layout_height="45dp"
+            android:id="@+id/btnContinue"
+            android:layout_marginTop="@dimen/_35dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="18dp"
+            app:backgroundTint="@null"
+            android:gravity="center"
+            style="@style/ButtonFont"
+            android:background="@drawable/button_bg"
+            android:text="@string/continue_btn"
+            android:textAllCaps="true"
+            android:textStyle="normal"/>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.home.visitor.VisitorCheckedOutFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="70dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_left_arrow"
+            android:layout_marginStart="30dp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginBottom="250dp">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_check_out"
+            android:foregroundGravity="center"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/visitor_checked_out_successfully"
+            android:layout_marginTop="150dp"
+            android:gravity="center"
+            android:layout_marginStart="0dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sms_notification"
+            android:layout_marginTop="185dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="330dp"
+        android:layout_height="45dp"
+        android:id="@+id/btnBackHome"
+        android:layout_marginTop="670dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        app:backgroundTint="@null"
+        android:gravity="center"
+        android:background="@drawable/button2_bg"
+        android:text="@string/back_home"
+        android:textAllCaps="true"
+        android:textSize="15sp"
+        android:textColor="@color/Red"
+        android:textStyle="normal"/>
+
+</RelativeLayout>
+
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.home.SwitchcompatFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_marginTop="@dimen/_60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/segment_control"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/button_bg"
+            app:layout_constraintDimensionRatio="w,1:15"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent=".8"
+            app:layout_constraintHeight_min="32dp">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:id="@+id/btn_summary_wrapper"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    app:layout_constraintEnd_toStartOf="@+id/btn_expenses_wrapper"
+                    app:layout_constraintHorizontal_chainStyle="spread"
+                    app:layout_constraintStart_toStartOf="parent">
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btn_summary"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/switchbutton_bg"
+                        android:minHeight="32dp"
+                        android:padding="8dp"
+                        android:text="texts"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"
+                        app:autoSizeMaxTextSize="22sp"
+                        app:autoSizeMinTextSize="14sp"
+                        app:autoSizeTextType="uniform"
+                        tools:layout_conversion_absoluteHeight="32dp"
+                        tools:layout_conversion_absoluteWidth="85dp"
+                        tools:layout_editor_absoluteX="49dp"
+                        tools:layout_editor_absoluteY="42dp" />
+                </RelativeLayout>
+                <FrameLayout
+                    android:id="@+id/btn_expenses_wrapper"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/switchbutton_bg"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/btn_summary_wrapper">
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btn_expenses"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:minHeight="32dp"
+                        android:padding="8dp"
+                        android:text="@string/text_string"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"
+                        app:autoSizeMaxTextSize="22sp"
+                        app:autoSizeMinTextSize="14sp"
+                        app:autoSizeTextType="uniform" />
+                </FrameLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100dp"
+        android:layout_marginTop="@dimen/_200dp">
+
+        <RelativeLayout
+            android:layout_width="@dimen/_100dp"
+            android:layout_height="@dimen/_50dp"
+            android:background="@color/blue"
+            android:layout_marginTop="@dimen/_10dp"
+            android:layout_marginStart="@dimen/_60dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_scan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/switchbtn_bg"
+                android:minHeight="32dp"
+                android:padding="8dp"
+                android:text="scan qr code"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="22sp"
+                app:autoSizeMinTextSize="14sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="@dimen/_100dp"
+            android:layout_height="@dimen/_50dp"
+            android:layout_marginTop="@dimen/_10dp"
+            android:background="@color/blue"
+            android:layout_marginStart="@dimen/_160dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_scan1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/switchbutton_bg"
+                android:minHeight="32dp"
+                android:padding="8dp"
+                android:text="scan ID Number"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                app:autoSizeMaxTextSize="22sp"
+                app:autoSizeMinTextSize="14sp"/>
+
+
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

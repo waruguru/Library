@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.auth.login.BiometricLoginFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivG4s"
+            android:layout_width="134dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="98dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginEnd="120dp"
+            android:src="@drawable/g4simage"/>
+
+        <ImageView
+            android:id="@+id/IvSecurity"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/security"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="90dp"
+            android:layout_marginEnd="90dp"/>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/CVcardview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="425dp"
+        android:background="@drawable/layout_bg"
+        android:backgroundTint="@color/Dark_white">
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="50dp"
+            android:layout_height="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginEnd="140dp"
+            app:cardCornerRadius="8dp"
+            android:background="@color/black"
+            android:backgroundTint="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20dp"
+            android:layout_marginTop="27dp"
+            android:layout_marginEnd="70dp"
+            android:fontFamily="@font/helvetica_neue_medium"
+            android:text="@string/PortalAccess"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/tvShift"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20dp"
+            android:layout_marginTop="80dp"
+            android:text="@string/Biometric_Details"
+            android:textColor="@color/black"
+            android:fontFamily="@font/helvetica_regular"
+            android:textSize="12sp"/>
+
+        <ImageView
+            android:id="@+id/IvFingerPrint"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="105dp"
+            android:layout_marginStart="140dp"
+            android:src="@drawable/ic_fingerprint"/>
+
+        <TextView
+            android:id="@+id/tvSensor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fingerprint_sensor"
+            android:layout_marginStart="90dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="165dp"
+            android:textColor="@color/Gray"
+            android:fontFamily="@font/helvetica_regular"
+            android:textSize="12sp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="330dp"
+            android:layout_height="45dp"
+            android:id="@+id/btnBiometricLogin"
+            android:layout_marginTop="195dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            app:backgroundTint="@null"
+            android:gravity="center"
+            android:background="@drawable/button_bg"
+            android:text="@string/biometric_login_Setup"
+            android:textAllCaps="true"
+            style="@style/ButtonFont"
+            android:textStyle="normal"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="330dp"
+            android:layout_height="45dp"
+            android:id="@+id/btnSkip"
+            android:layout_marginTop="250dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            app:backgroundTint="@null"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:background="@drawable/button2_bg"
+            android:text="@string/skip"
+            android:fontFamily="@font/helvetica_regular"
+            android:textSize="@dimen/_16sp"
+            android:textColor="@color/Red"
+            android:textStyle="normal"/>
+
+    </RelativeLayout>
+</RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>
