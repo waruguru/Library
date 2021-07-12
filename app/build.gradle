@@ -11,7 +11,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.ekenya.android.g4saccesscsystem"
+        applicationId "com.moringa.android.g4saccesscsystem"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1

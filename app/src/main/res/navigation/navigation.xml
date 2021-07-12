@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/onboarding1Fragment"
-        android:name="com.ekenya.android.g4saccesscsystem.ui.auth.onboarding.Onboarding1Fragment"
+        android:name="com.moringa.android.g4saccesscsystem.ui.auth.onboarding.Onboarding1Fragment"
         android:label="fragment_onboarding1"
         tools:layout="@layout/fragment_onboarding1" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.ekenya.android.g4saccesscsystem.ui.auth.login.LoginFragment"
+        android:name="com.moringa.android.g4saccesscsystem.ui.auth.login.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
@@ -28,7 +28,7 @@
     </fragment>
     <fragment
         android:id="@+id/biometricLoginFragment"
-        android:name="com.ekenya.android.g4saccesscsystem.ui.auth.login.BiometricLoginFragment"
+        android:name="com.moringa.android.g4saccesscsystem.ui.auth.login.BiometricLoginFragment"
         android:label="fragment_biometric_login"
         tools:layout="@layout/fragment_biometric_login" >
         <action
@@ -40,7 +40,7 @@
     </fragment>
     <fragment
         android:id="@+id/verificationFragment"
-        android:name="com.ekenya.android.g4saccesscsystem.ui.auth.register.VerificationFragment"
+        android:name="com.moringa.android.g4saccesscsystem.ui.auth.register.VerificationFragment"
         android:label="fragment_verification"
         tools:layout="@layout/fragment_verification" >
         <action
@@ -49,7 +49,7 @@
     </fragment>
     <fragment
         android:id="@+id/changePinFragment"
-        android:name="com.ekenya.android.g4saccesscsystem.ui.auth.register.ChangePinFragment"
+        android:name="com.moringa.android.g4saccesscsystem.ui.auth.register.ChangePinFragment"
         android:label="fragment_change_pin"
         tools:layout="@layout/fragment_change_pin" >
         <action
@@ -58,7 +58,7 @@
     </fragment>
     <fragment
         android:id="@+id/confirmPinFragment"
-        android:name="com.ekenya.android.g4saccesscsystem.ui.auth.register.ConfirmPinFragment"
+        android:name="com.moringa.android.g4saccesscsystem.ui.auth.register.ConfirmPinFragment"
         android:label="fragment_confirm_pin"
         tools:layout="@layout/fragment_confirm_pin" >
         <action
@@ -67,7 +67,7 @@
     </fragment>
     <fragment
         android:id="@+id/home"
-        android:name="com.ekenya.android.g4saccesscsystem.ui.home.dashboard.DashBoardFragment"
+        android:name="com.moringa.android.g4saccesscsystem.ui.home.dashboard.DashBoardFragment"
         android:label=""
         tools:layout="@layout/fragment_dash_board" >
         <action
@@ -76,7 +76,7 @@
     </fragment>
     <fragment
         android:id="@+id/visitorDetailsFragment"
-        android:name="com.ekenya.android.g4saccesscsystem.ui.home.visitor.VisitorDetailsFragment"
+        android:name="com.moringa.android.g4saccesscsystem.ui.home.visitor.VisitorDetailsFragment"
         android:label="fragment_visitor_details"
         tools:layout="@layout/fragment_visitor_details" >
         <action
@@ -85,7 +85,7 @@
     </fragment>
     <fragment
         android:id="@+id/visitorSummaryFragment"
-        android:name="com.ekenya.android.g4saccesscsystem.ui.home.visitor.VisitorSummaryFragment"
+        android:name="com.moringa.android.g4saccesscsystem.ui.home.visitor.VisitorSummaryFragment"
         android:label="fragment_visitor_summary"
         tools:layout="@layout/fragment_visitor_summary" >
         <action
@@ -94,7 +94,7 @@
     </fragment>
     <fragment
         android:id="@+id/QRCodeFragment"
-        android:name="com.ekenya.android.g4saccesscsystem.ui.home.scan.QRCodeFragment"
+        android:name="com.moringa.android.g4saccesscsystem.ui.home.scan.QRCodeFragment"
         android:label="fragment_q_r_code"
         tools:layout="@layout/fragment_q_r_code" >
         <action
@@ -103,7 +103,7 @@
     </fragment>
     <fragment
         android:id="@+id/checkedInFragment"
-        android:name="com.ekenya.android.g4saccesscsystem.ui.auth.register.CheckedInFragment"
+        android:name="com.moringa.android.g4saccesscsystem.ui.auth.register.CheckedInFragment"
         android:label="fragment_checked_in"
         tools:layout="@layout/fragment_checked_in" >
         <action
@@ -112,7 +112,7 @@
     </fragment>
     <fragment
         android:id="@+id/summaryFragment"
-        android:name="com.ekenya.android.g4saccesscsystem.ui.home.visitor.SummaryFragment"
+        android:name="com.moringa.android.g4saccesscsystem.ui.home.visitor.SummaryFragment"
         android:label="fragment_summary"
         tools:layout="@layout/fragment_summary" >
         <action
@@ -121,7 +121,7 @@
     </fragment>
     <fragment
         android:id="@+id/checkOutFragment"
-        android:name="com.ekenya.android.g4saccesscsystem.ui.home.visitor.CheckOutFragment"
+        android:name="com.moringa.android.g4saccesscsystem.ui.home.visitor.CheckOutFragment"
         tools:layout="@layout/fragment_check_out"
         android:label="CheckOutFragment" >
         <action
@@ -130,7 +130,7 @@
     </fragment>
     <fragment
         android:id="@+id/visitorCheckedOutFragment"
-        android:name="com.ekenya.android.g4saccesscsystem.ui.home.visitor.VisitorCheckedOutFragment"
+        android:name="com.moringa.android.g4saccesscsystem.ui.home.visitor.VisitorCheckedOutFragment"
         android:label="fragment_visitor_checked_out"
         tools:layout="@layout/fragment_visitor_checked_out" >
         <action
@@ -139,7 +139,7 @@
     </fragment>
     <fragment
         android:id="@+id/scanIdFragment"
-        android:name="com.ekenya.android.g4saccesscsystem.ui.home.scan.ScanIdFragment"
+        android:name="com.moringa.android.g4saccesscsystem.ui.home.scan.ScanIdFragment"
         android:label="fragment_scan_id"
         tools:layout="@layout/fragment_scan_id" >
         <action
@@ -148,7 +148,7 @@
     </fragment>
     <fragment
         android:id="@+id/scanLaptopFragment"
-        android:name="com.ekenya.android.g4saccesscsystem.ui.home.scan.ScanLaptopFragment"
+        android:name="com.moringa.android.g4saccesscsystem.ui.home.scan.ScanLaptopFragment"
         android:label="fragment_scan_laptop"
         tools:layout="@layout/fragment_scan_laptop" >
         <action
@@ -157,12 +157,12 @@
     </fragment>
     <fragment
         android:id="@+id/scanVisitorDetailsFragment"
-        android:name="com.ekenya.android.g4saccesscsystem.ui.home.visitor.ScanVisitorDetailsFragment"
+        android:name="com.moringa.android.g4saccesscsystem.ui.home.visitor.ScanVisitorDetailsFragment"
         android:label="fragment_scan_visitor_details"
         tools:layout="@layout/fragment_scan_visitor_details" />
     <fragment
         android:id="@+id/loginInputFragment"
-        android:name="com.ekenya.android.g4saccesscsystem.ui.auth.login.LoginInputFragment"
+        android:name="com.moringa.android.g4saccesscsystem.ui.auth.login.LoginInputFragment"
         android:label="fragment_login_input"
         tools:layout="@layout/fragment_login_input" >
         <action

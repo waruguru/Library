@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/fragment"
-        android:name="com.ekenya.android.g4saccesscsystem.ui.home.dashboard.DashBoardFragment"
+        android:name="com.moringa.android.g4saccesscsystem.ui.home.dashboard.DashBoardFragment"
         android:layout_width="match_parent"
         android:layout_height="566dp"
         app:defaultNavHost="true"

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ekenya.android.g4saccesscsystem">
+    package="com.moringa.android.g4saccesscsystem">
     <!-- Internet permisions-->
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
@@ -20,8 +20,8 @@
         android:roundIcon="@drawable/g4simage"
         android:supportsRtl="true"
         android:theme="@style/Theme.G4SAccessCSystem">
-        <activity android:name="com.ekenya.android.g4saccesscsystem.ui.home.dashboard.DashBoardActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.moringa.android.g4saccesscsystem.ui.home.dashboard.DashBoardActivity" />
+        <activity android:name="com.moringa.android.g4saccesscsystem.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
